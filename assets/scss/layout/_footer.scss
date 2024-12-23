@@ -1,0 +1,93 @@
+.d-flex{
+  display: flex; 
+}
+.jcs{
+  justify-content: space-between;
+}
+//以上兩行另外建立檔案
+.footer{
+  background-color: #AA0601;
+  padding: 48px 0 32px 0;
+  font-size: 16px;
+  color: white;
+  .footerLeft{
+    gap: 48px;
+    margin-bottom: 36px;
+  }
+  .footerRight{
+    gap: 32px;
+  }
+  .footerRight img{
+    width: 48px;
+    height: 48px;
+  }
+  .contactInform{
+    margin-bottom: 32px;
+  }
+  .contactInform a{
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+  .contactInform span{
+    font-size: 36px;
+		vertical-align: text-bottom;
+    margin-right: 20px;
+  }
+  .Copyright{
+    border-top: 1px solid white;
+    padding: 32px 0 0;
+  }
+  .Copyright ul{
+    gap: 48px;
+  }
+}
+@media (max-width: 992px){
+	.footer{
+		padding: 48px 24px 40px 24px;
+			.footerRight{
+				gap: 16px;
+        img{
+          width: 40px;
+          height: 40px;
+        }
+			}
+		}
+	}
+
+
+@media (max-width: 767px) {
+  .footer{
+		padding: 24px 2px;
+    .footerLeft{
+      display: none;
+    }
+  .contactInform {
+    margin-bottom: 24px;
+    a{
+    font-size: 18px;
+  }
+}
+  .contactInform span{
+    font-size: 16px;
+    vertical-align: text-bottom;
+    margin-right: 11px;
+  }
+  .footerRight { 
+        gap: 8px;
+        img{
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .Copyright{
+      display: block;
+      padding-top: 16px;
+    }
+    .hint{
+      display: block;
+    }
+    li{
+      margin-top: 8px;
+    }
+}
+}

@@ -1,0 +1,92 @@
+//容器設定
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+  padding: 0 12px;
+} 
+.col-2{
+  width: 51%;
+  padding: 0 12px;
+}
+.col-3{
+  width: 33%;
+  padding: 0 12px;
+}
+.col-4{
+  width: 25%;
+  padding: 0 12px;
+}
+.w1{
+  height: 100%;
+}
+//位置設定
+.tac{
+  text-align: center;
+}
+.d-flex{
+  display: flex;
+}
+.jcc{
+  justify-content: center;
+}
+.jsa{
+  justify-content: space-around;
+}
+.jsb{
+  justify-content: space-between;
+}
+.fdc{
+  flex-direction: column;
+}
+.aie{
+  align-items: end;  
+}
+.aic{
+  align-items: center;
+}
+//字型設定
+.fwb{
+  font-weight:750;
+}
+.fwm{
+  font-weight:500;
+}
+.fs4{
+  font-size: 16px;
+}
+.fs5{
+  font-size: 20px;
+} 
+.fs6{
+  font-size: 24px;
+}
+.fs9{
+  font-size: 36px;
+} 
+.fs12{
+  font-size: 48px;
+} 
+.fs16{
+  font-size: 64px;
+} 
+.fcp{
+  color: $primary;
+}
+.fcs{
+  color: $secondary;
+}
+.fcbl{
+  color: $bg-light;
+}
+.mb2{
+  margin-bottom: 8px;
+}
+.mb8{
+  margin-bottom: 32px;
+}
+.mb6{
+  margin-bottom: 24px;
+}
+.mb4{
+  margin-bottom: 16px;
+}
